@@ -1,11 +1,10 @@
-name = "worker-rust"
+name = "iroh-discovery"
 main = "build/worker/shim.mjs"
 compatibility_date = "2023-03-22"
 
 [[kv_namespaces]]
-binding = "Animal_Rescues_Rusty_KV"
-id = "7883e81602324e04b5aadafcfa09f90b"
-preview-id = "fa2ddae325754c8a881ef5ef5cfdbe40"
+binding = "disco"
+id = "ce5dcdc2c4d342eab7d04ce6623c6541"
 
 [build]
 command = "cargo install -q worker-build && worker-build --release"
